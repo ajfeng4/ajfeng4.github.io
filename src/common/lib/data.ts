@@ -43,27 +43,71 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: 'WhirrCrew',
-    location: 'Prague, Czechia',
-    description: `Front-end Web Develpoer position. Responsible for implementation of accessible and interactive interface. Working on various projects with AI integration. `,
+    title: 'Web Development Assistant',
+    company: 'University at Buffalo School of Dental Medicine',
+    location: 'Buffalo, New York',
+    description: `Coming soon..`,
     icon: React.createElement(BriefcaseBusinessIcon),
-    date: 'Jun 2024 - Present',
+    date: 'Sep 2024 - Present',
   },
   {
-    title: 'NAU',
+    title: 'Undergraduate Research Assistant',
+    company: 'University at Buffalo School of Engineering and Applied Sciences',
+    location: 'Buffalo, New York',
+    description: `Coming soon..`,
+    icon: React.createElement(BriefcaseBusinessIcon),
+    date: 'Aug 2024 - Dec 2024',
+  },
+  {
+    title: 'Undergraduate Teaching Assistant',
+    company: 'University at Buffalo School of Engineering and Applied Sciences',
+    location: 'Buffalo, New York',
+    description: `Coming soon`,
+    icon: React.createElement(BriefcaseBusinessIcon),
+    date: 'Aug 2024 - Dec 2024',
+  },
+  {
+    title: 'Software Engineer Intern',
+    company: 'Site Service Software Inc',
+    location: 'Jamison, Pennslyvania',
+    description: `Coming soon`,
+    icon: React.createElement(BriefcaseBusinessIcon),
+    date: 'Aug 2024 - Dec 2024',
+  },
+  {
+    title: 'Software Engineer Intern',
+    company: 'Hungie',
+    location: 'New York City, New York',
+    description: `Coming soon`,
+    icon: React.createElement(BriefcaseBusinessIcon),
+    date: 'Sep 2022 - Present',
+  },
+  {
+    title: 'Director of Procurement',
+    company: 'Undergraduate Student Association',
+    location: 'Buffalo, New York',
+    description: `Coming soon`,
+    icon: React.createElement(BriefcaseBusinessIcon),
+    date: 'Aug 2022 - Present',
+  },
+  {
+    title: 'Bachelor\'s degree in Cybersecurity',
+    company: 'NAU',
     location: 'Kyiv, Ukraine',
-    description: `Bachelor's degree in Cybersecurity. Studying on the faculty of Cyber Security and Software Engineering.`,
+    description: `Studying on the faculty of Cyber Security and Software Engineering.`,
     icon: React.createElement(BookIcon),
     date: 'Sep 2022 - Present',
   },
   {
     title: 'Self-studying',
+    company: 'Independent Learning',
     location: 'Czechia',
-    description: `Digging into Programming, Software Engineering and Web Development, picking up a great expertise in TypeScript, React, Next.js, Node.js, and database technologies (MongoDB/PostgreSQL/MySQL) utilizing Prisma for efficient data access.`,
+    description: `Gaining expertise in TypeScript, React, Next.js, Node.js, and database technologies (MongoDB/PostgreSQL/MySQL) utilizing Prisma for efficient data access.`,
     icon: React.createElement(LaptopMinimalIcon),
     date: 'Jul 2022 - Present',
   },
 ] as const;
+
 
 export const images = {
   campwithusImg,

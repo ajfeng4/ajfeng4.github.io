@@ -49,6 +49,7 @@ export const experiencesData = [
     description: `Coming soon..`,
     icon: React.createElement(BriefcaseBusinessIcon),
     date: 'Sep 2024 - Present',
+    section: 'experience',
   },
   {
     title: 'Undergraduate Research Assistant',
@@ -57,6 +58,7 @@ export const experiencesData = [
     description: `Coming soon..`,
     icon: React.createElement(BriefcaseBusinessIcon),
     date: 'Aug 2024 - Dec 2024',
+    section: 'experience',
   },
   {
     title: 'Undergraduate Teaching Assistant',
@@ -65,6 +67,7 @@ export const experiencesData = [
     description: `Coming soon`,
     icon: React.createElement(BriefcaseBusinessIcon),
     date: 'Aug 2024 - Dec 2024',
+    section: 'experience',
   },
   {
     title: 'Software Engineer Intern',
@@ -73,6 +76,7 @@ export const experiencesData = [
     description: `Coming soon`,
     icon: React.createElement(BriefcaseBusinessIcon),
     date: 'Aug 2024 - Dec 2024',
+    section: 'experience',
   },
   {
     title: 'Software Engineer Intern',
@@ -81,33 +85,90 @@ export const experiencesData = [
     description: `Coming soon`,
     icon: React.createElement(BriefcaseBusinessIcon),
     date: 'Sep 2022 - Present',
+    section: 'experience',
   },
   {
     title: 'Director of Procurement',
-    company: 'Undergraduate Student Association',
+    company: 'Undergraduate Student Association - UB',
     location: 'Buffalo, New York',
     description: `Coming soon`,
     icon: React.createElement(BriefcaseBusinessIcon),
-    date: 'Aug 2022 - Present',
+    date: 'May 2024 - Present',
+    section: 'experience',
   },
   {
-    title: 'Bachelor\'s degree in Cybersecurity',
-    company: 'NAU',
-    location: 'Kyiv, Ukraine',
-    description: `Studying on the faculty of Cyber Security and Software Engineering.`,
+    title: 'Procurement Assistant',
+    company: 'Undergraduate Student Association - UB',
+    location: 'Buffalo, New York',
+    description: `Coming soon`,
+    icon: React.createElement(BriefcaseBusinessIcon),
+    date: 'Aug 2022 - May 2024',
+    section: 'experience',
+  },
+  {
+    title: 'Student Office Assistant',
+    company: "University at Buffalo - Governor's Hall",
+    location: 'Buffalo, New York',
+    description: `Coming soon`,
+    icon: React.createElement(BriefcaseBusinessIcon),
+    date: 'Aug 2022 - May 2024',
+    section: 'experience',
+  },
+  {
+    title: 'BS, Computer Science',
+    company: 'University at Buffalo, State University of New York',
+    location: 'Buffalo, New York',
+    description: `Data Structures, Applied HCI, Web Applications, Software Engineering Concepts`,
     icon: React.createElement(BookIcon),
-    date: 'Sep 2022 - Present',
+    date: 'Jan 2022 - Present',
+    section: 'education',
   },
   {
-    title: 'Self-studying',
-    company: 'Independent Learning',
-    location: 'Czechia',
-    description: `Gaining expertise in TypeScript, React, Next.js, Node.js, and database technologies (MongoDB/PostgreSQL/MySQL) utilizing Prisma for efficient data access.`,
+    title: 'BBA, Management Information Systems',
+    company: 'University at Buffalo, State University of New York',
+    location: 'Buffalo, New York',
+    description: `Database Management, Telecommunications Technology`,
+    icon: React.createElement(BookIcon),
+    date: 'Jan 2022 - Present',
+    section: 'education',
+  },
+  {
+    title: 'Club President',
+    company: 'UB Mobile App Development Club',
+    location: 'Buffalo, New York',
+    description: `Coming soon..`,
     icon: React.createElement(LaptopMinimalIcon),
-    date: 'Jul 2022 - Present',
+    date: 'Dec 2024 - Present',
+    section: 'extracurriculars',
+  },
+  {
+    title: 'Public Relations Coordinator',
+    company: 'UB IBM Z Club',
+    location: 'Buffalo, New York',
+    description: `Coming soon..`,
+    icon: React.createElement(LaptopMinimalIcon),
+    date: 'Dec 2024 - Present',
+    section: 'extracurriculars',
+  },
+  {
+    title: 'White Team Grader',
+    company: 'UB Lockdown',
+    location: 'Buffalo, New York',
+    description: `Coming soon..`,
+    icon: React.createElement(LaptopMinimalIcon),
+    date: 'Mar 2024 - Present',
+    section: 'extracurriculars',
+  },
+  {
+    title: 'Software Engineer Fellow',
+    company: 'Headstarter',
+    location: 'New York City, New York',
+    description: `Coming soon..`,
+    icon: React.createElement(LaptopMinimalIcon),
+    date: 'Jul 2024 - Aug 2024',
+    section: 'extracurriculars',
   },
 ] as const;
-
 
 export const images = {
   campwithusImg,
@@ -121,7 +182,7 @@ export const projectsData = [
   {
     title: 'FileDrive',
     description:
-      'A platform for decentralized file storage with robust user management.',
+        'A platform for decentralized file storage with robust user management.',
     tags: [
       'React',
       'TypeScript',
@@ -167,7 +228,7 @@ export const projectsData = [
   {
     title: 'Surge',
     description:
-      'Welcome Surge! A SaaS Website Builder - service that allows users to build and manage their own websites with integrated payment processing.',
+        'Welcome Surge! A SaaS Website Builder - service that allows users to build and manage their own websites with integrated payment processing.',
     tags: [
       'React',
       'TypeScript',
@@ -184,7 +245,7 @@ export const projectsData = [
   {
     title: 'CampWithUs',
     description:
-      'A platform to find and book campsites, featuring a well-designed backend and seamless client-server communication.',
+        'A platform to find and book campsites, featuring a well-designed backend and seamless client-server communication.',
     tags: ['JavaScript', 'Express.js', 'MongoDB', 'Cloudinary', 'EJS'],
     imageUrl: campwithusImg,
     link: 'https://github.com/bbyc4kes/campwithus',
@@ -220,3 +281,4 @@ export const skillsData = [
   ['GitHub', '/svgs/github.svg'],
   ['', '/svgs/etc.svg'],
 ] as const;
+

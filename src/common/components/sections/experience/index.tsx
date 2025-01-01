@@ -1,6 +1,6 @@
 'use client';
 
-import React from 'react';
+import React, { useState } from 'react';
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -15,7 +15,12 @@ import SectionDivider from '@/common/components/shared/section-divider';
 export default function Experience() {
   const { ref } = useSectionInView('experience');
   const { theme } = useTheme();
-  const ihasMounted = useHasMounted();
+  const hasMounted = useHasMounted();
+  const [selectedSection, setSelectedSection] = useState('experience');
+
+  const filteredData = experiencesData.filter(
+      (item) => item.section === selectedSection
+  );
 
   return (
       <section
@@ -24,9 +29,41 @@ export default function Experience() {
           className="w-full scroll-mt-20 dark:bg-darkBg dark:text-white"
       >
         <SectionHeading>My experience</SectionHeading>
+        <div className="flex justify-center space-x-4 mb-6">
+          <button
+              onClick={() => setSelectedSection('experience')}
+              className={`px-4 py-2 rounded-md text-sm font-medium ${
+                  selectedSection === 'experience'
+                      ? 'bg-blue-600 text-white'
+                      : 'bg-gray-200 dark:bg-gray-700 text-black dark:text-white'
+              }`}
+          >
+            Experiences
+          </button>
+          <button
+              onClick={() => setSelectedSection('education')}
+              className={`px-4 py-2 rounded-md text-sm font-medium ${
+                  selectedSection === 'education'
+                      ? 'bg-blue-600 text-white'
+                      : 'bg-gray-200 dark:bg-gray-700 text-black dark:text-white'
+              }`}
+          >
+            Education
+          </button>
+          <button
+              onClick={() => setSelectedSection('extracurriculars')}
+              className={`px-4 py-2 rounded-md text-sm font-medium ${
+                  selectedSection === 'extracurriculars'
+                      ? 'bg-blue-600 text-white'
+                      : 'bg-gray-200 dark:bg-gray-700 text-black dark:text-white'
+              }`}
+          >
+            Extracurriculars
+          </button>
+        </div>
         <VerticalTimeline animate={false}>
-          {ihasMounted &&
-              experiencesData.map((item, index) => (
+          {hasMounted &&
+              filteredData.map((item, index) => (
                   <React.Fragment key={index}>
                     <VerticalTimelineElement
                         contentStyle={{

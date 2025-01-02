@@ -180,9 +180,9 @@ export const images = {
 
 export const projectsData = [
   {
-    title: 'FileDrive',
+    title: 'Drink Intake Tracker',
     description:
-        'A platform for decentralized file storage with robust user management.',
+        'React Native Mobile App',
     tags: [
       'React',
       'TypeScript',
@@ -196,8 +196,8 @@ export const projectsData = [
     link: 'https://github.com/bbyc4kes/file-drive',
   },
   {
-    title: 'Portfolio',
-    description: `Portfolio that you're currently viewing! This project showcases my work and provides information about me.`,
+    title: 'Find a Mechanic',
+    description: `React Native Mobile IOS/Andriod Application to connect customers to mechanics and workshops local to their area`,
     tags: [
       'React',
       'TypeScript',
@@ -211,8 +211,8 @@ export const projectsData = [
     link: 'https://github.com/bbyc4kes/portfolio',
   },
   {
-    title: 'Audit Master',
-    description: `Audit Master is a platform that streamlines the process of obtaining legal expertise and resources. It automates tasks like GAP Analysis, GAP Reporting, and Due Diligence.`,
+    title: 'Hungie(Food buddy)',
+    description: `AI Powered Food Buddy to recommend and cater food based on the user's tastebuds and perferences`,
     tags: [
       'React',
       'TypeScript',
@@ -226,9 +226,9 @@ export const projectsData = [
     link: 'https://auditmaster.ai/',
   },
   {
-    title: 'Surge',
+    title: 'Dystopia',
     description:
-        'Welcome Surge! A SaaS Website Builder - service that allows users to build and manage their own websites with integrated payment processing.',
+        'Web Application',
     tags: [
       'React',
       'TypeScript',
@@ -243,7 +243,15 @@ export const projectsData = [
     link: 'https://github.com/bbyc4kes/surge',
   },
   {
-    title: 'CampWithUs',
+    title: 'Brighterspace',
+    description:
+        'A platform to find and book campsites, featuring a well-designed backend and seamless client-server communication.',
+    tags: ['JavaScript', 'Express.js', 'MongoDB', 'Cloudinary', 'EJS'],
+    imageUrl: campwithusImg,
+    link: 'https://github.com/bbyc4kes/campwithus',
+  },
+  {
+    title: 'AI Customer Support',
     description:
         'A platform to find and book campsites, featuring a well-designed backend and seamless client-server communication.',
     tags: ['JavaScript', 'Express.js', 'MongoDB', 'Cloudinary', 'EJS'],

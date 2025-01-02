@@ -56,9 +56,15 @@ export default function Projects() {
         </div>
         <div className="my-24">
           {filteredProjects.map((project, index) => (
-              <React.Fragment key={index}>
-                <Project {...project} />
-              </React.Fragment>
+              <Project
+                  key={index}
+                  title={project.title}
+                  description={project.description}
+                  tags={project.tags}
+                  imageUrl={project.imageUrl}
+                  link={project.link}
+                  category={project.category}
+              />
           ))}
         </div>
         <SectionDivider />

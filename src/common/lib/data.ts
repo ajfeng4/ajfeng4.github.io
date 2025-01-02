@@ -136,7 +136,7 @@ export const experiencesData = [
     title: 'Club President',
     company: 'UB Mobile App Development Club',
     location: 'Buffalo, New York',
-    description: `Coming soon..`,
+    description: `Founded the Mobile App Development at my university, SUNY University at Buffalo. Worked with E-Board to teach students how to work with mobile development frameworks lke Swift,Kotlin and React Native`,
     icon: React.createElement(LaptopMinimalIcon),
     date: 'Dec 2024 - Present',
     section: 'extracurriculars',
@@ -145,7 +145,7 @@ export const experiencesData = [
     title: 'Public Relations Coordinator',
     company: 'UB IBM Z Club',
     location: 'Buffalo, New York',
-    description: `Coming soon..`,
+    description: `Worked with the founding e-board to manage IBM Z's social media presence and website`,
     icon: React.createElement(LaptopMinimalIcon),
     date: 'Dec 2024 - Present',
     section: 'extracurriculars',
@@ -154,7 +154,7 @@ export const experiencesData = [
     title: 'White Team Grader',
     company: 'UB Lockdown',
     location: 'Buffalo, New York',
-    description: `Coming soon..`,
+    description: `Grader for University at Buffalo's bi-annual cybersecurity lockdown competitions. White-Teamed at UB's High School Lockdown and UB's Collegiate Lockdown`,
     icon: React.createElement(LaptopMinimalIcon),
     date: 'Mar 2024 - Present',
     section: 'extracurriculars',
@@ -163,7 +163,7 @@ export const experiencesData = [
     title: 'Software Engineer Fellow',
     company: 'Headstarter',
     location: 'New York City, New York',
-    description: `Coming soon..`,
+    description: `Selected into the Headstarter AI Software Engineering Fellowship program with the unique opportunity of building 5 AI projects within 5 weeks`,
     icon: React.createElement(LaptopMinimalIcon),
     date: 'Jul 2024 - Aug 2024',
     section: 'extracurriculars',
@@ -182,7 +182,7 @@ export const projectsData = [
   {
     title: 'Drink Intake Tracker',
     description:
-        'React Native Mobile App',
+        "iOS/Android application to track user's hydration levels. The app helps users meet their daily hydration goal and maintain a healthier lifestyle.",
     tags: [
       'React',
       'TypeScript',
@@ -194,10 +194,11 @@ export const projectsData = [
     ],
     imageUrl: filedriveImg,
     link: 'https://github.com/bbyc4kes/file-drive',
+    category: 'Mobile',
   },
   {
     title: 'Find a Mechanic',
-    description: `React Native Mobile IOS/Andriod Application to connect customers to mechanics and workshops local to their area`,
+    description: `Mobile IOS/Andriod Application to connect customers to mechanics and workshops local to their area`,
     tags: [
       'React',
       'TypeScript',
@@ -209,6 +210,7 @@ export const projectsData = [
     ],
     imageUrl: portfolioImg,
     link: 'https://github.com/bbyc4kes/portfolio',
+    category: 'Mobile',
   },
   {
     title: 'Hungie(Food buddy)',
@@ -224,11 +226,12 @@ export const projectsData = [
     ],
     imageUrl: auditMasterImg,
     link: 'https://auditmaster.ai/',
+    category: 'Web',
   },
   {
     title: 'Dystopia',
     description:
-        'Web Application',
+        'Responsive social media application empowering users to shape their social media landscape. Built with JavaScript, React, CSS and HTML.',
     tags: [
       'React',
       'TypeScript',
@@ -241,14 +244,16 @@ export const projectsData = [
     ],
     imageUrl: surgeImg,
     link: 'https://github.com/bbyc4kes/surge',
+    category: 'Web',
   },
   {
     title: 'Brighterspace',
     description:
-        'A platform to find and book campsites, featuring a well-designed backend and seamless client-server communication.',
+        'Interactive educational platform bridging the gap between learning and teaching. Offering two innovative experiences for students and educators',
     tags: ['JavaScript', 'Express.js', 'MongoDB', 'Cloudinary', 'EJS'],
     imageUrl: campwithusImg,
     link: 'https://github.com/bbyc4kes/campwithus',
+    category: 'Web',
   },
   {
     title: 'AI Customer Support',
@@ -257,8 +262,10 @@ export const projectsData = [
     tags: ['JavaScript', 'Express.js', 'MongoDB', 'Cloudinary', 'EJS'],
     imageUrl: campwithusImg,
     link: 'https://github.com/bbyc4kes/campwithus',
+    category: 'Web',
   },
-] as const;
+];
+
 
 export const skillsData = [
   ['JavaScript', '/svgs/javascript-js.svg'],

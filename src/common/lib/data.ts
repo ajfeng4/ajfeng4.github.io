@@ -7,6 +7,12 @@ import reactfoodImg from "@/../public/images/react-food.png";
 import surgeImg from "@/../public/images/surge.png";
 import portfolioImg from "@/../public/images/portfolio.png";
 import auditMasterImg from "@/../public/images/audit-master.png";
+import hungie from "@/../public/images/hungie.png";
+import dystopia from "@/../public/images/Dystopiaaaa.png";
+import brighterspace from "@/../public/images/Brighter.png";
+import support from "@/../public/images/AICustomerSupport.png";
+import mechanic from "@/../public/images/Mechanic.png";
+import drink from "@/../public/images/Drink.png";
 import { BookIcon, BriefcaseBusinessIcon, LaptopMinimalIcon } from "lucide-react";
 import {
     SiReact,
@@ -40,7 +46,7 @@ import {
     SiAngular,
     SiReactrouter,
     SiWebstorm,
-    SiAmazonwebservices,
+    SiAmazonwebservices, SiPython, SiAndroid, SiAndroidstudio, SiVercel,
 } from "react-icons/si";
 
 export const links = [  {    name: "Home",    id: "home",  },  {    name: "About",    id: "about",  },  {    name: "Projects",    id: "projects",  },  {    name: "Experience",    id: "experience",  },  {    name: "Skills",    id: "skills",  },  {    name: "Contact",    id: "contact",  },] as const;
@@ -55,9 +61,10 @@ export const images = {
   reactfoodImg,
 };
 
-export const projectsData = [  {    title: "Drink Intake Tracker",    description:      "iOS/Android application to track user's hydration levels. The app helps users meet their daily hydration goal and maintain a healthier lifestyle.",    tags: [      "React",      "TypeScript",      "Next.js",      "Convex",      "Clerk",      "Shadcn",      "Tailwind"    ],
-  imageUrl: filedriveImg,
-  link: "https://github.com/bbyc4kes/file-drive",
+export const projectsData = [  {    title: "Drink Intake Tracker",    description:      "iOS/Android application to track user's hydration levels. The app helps users meet their daily hydration goal and maintain a healthier lifestyle.",    tags: [
+    "React Native", "TypeScript","Python","PostgreSQL","Supabase","Expo","Android Studio"],
+  imageUrl: drink,
+  link: "https://github.com/ajfeng4/DrinkIntakeResearch",
   category: "Mobile",
 },
   {
@@ -65,69 +72,69 @@ export const projectsData = [  {    title: "Drink Intake Tracker",    descriptio
     description:
         "Mobile IOS/Andriod Application to connect customers to mechanics and workshops local to their area,",
     tags: [
-      "React",
-      "TypeScript",
-      "Expo",
-      "Framer Motion",
-      "Cloudinary",
-      "React Email",
-      "Tailwind"
+      "React Native",
+      "JavaScript",
+        "Tailwind",
+      "PHP",
+      "MySQL",
+      "AWS",
+        "Expo",
+        "Android Studio"
     ],
-    imageUrl: portfolioImg,
+    imageUrl: mechanic,
     link: "https://github.com/bbyc4kes/portfolio",
     category: "Mobile",
   },
+    {
+        title: "Dystopia",
+        description:
+            "Responsive social media application empowering users to shape their social media landscape. Built with JavaScript, React, CSS and HTML.",
+        tags: [
+            "React.js",
+            "JavaScript",
+            "CSS",
+            "HTML",
+            "Swagger",
+            "Webstorm",
+        ],
+        imageUrl: dystopia,
+        link: "https://webdev.cse.buffalo.edu/hci/teams/zoomers",
+        category: "Web",
+    },
   {
     title: "Hungie(Food buddy)",
     description:
         "AI Powered Food Buddy to recommend and cater food based on the user's tastebuds and perferences,",
     tags: [
-      "React",
+      "React Native",
       "TypeScript",
-      "Next.js",
-      "Tailwind",
-      "OpenAI",
-      "SCRUM Methodology",
-      "End-to-End Development"
+        "Tailwind",
+      "Expo",
+      "Firebase",
+      "Sendgrid",
+        "Webstorm",
+        "Android Studio"
     ],
-    imageUrl: auditMasterImg,
-    link: "https://auditmaster.ai/",
+    imageUrl: hungie,
+    link: "https://www.hungieapp.com/",
     category: "Mobile",
-  },
-  {
-    title: "Dystopia",
-    description:
-        "Responsive social media application empowering users to shape their social media landscape. Built with JavaScript, React, CSS and HTML.",
-    tags: [
-      "React",
-      "TypeScript",
-      "Next.js",
-      "MySQL",
-      "Clerk",
-      "Stripe Connect",
-      "Shadcn",
-      "Tailwind"
-    ],
-    imageUrl: surgeImg,
-    link: "https://github.com/bbyc4kes/surge",
-    category: "Web",
   },
   {
     title: "Brighterspace",
     description:
         "Interactive educational platform bridging the gap between learning and teaching. Offering two innovative experiences for students and educators",
-    tags: ["JavaScript", "Express.js", "MongoDB", "Cloudinary", "EJS"],
-    imageUrl: campwithusImg,
-    link: "https://github.com/bbyc4kes/campwithus",
+    tags: ["React.js", "JavaScript", "PHP", "PHPMyAdmin", "PHPStorm","Webstorm"],
+    imageUrl: brighterspace,
+    link: "https://github.com/cse442-at-ub/s24semesterproject-brighterspace",
     category: "Web",
   },
   {
     title: "AI Customer Support",
     description:
         "A platform to find and book campsites, featuring a well-designed backend and seamless client-server communication.",
-    tags: ["JavaScript", "Express.js", "MongoDB", "Cloudinary", "EJS"],
-    imageUrl: campwithusImg,
-    link: "https://github.com/bbyc4kes/campwithus",
+    tags: ["JavaScript", "MaterialUI", "Next.js", "Vercel","OpenAI"],
+    imageUrl: support,
+    link: "https://github.com/ajfeng4/AICustomerSupport",
     category: "Web",
   },
 ];
@@ -163,7 +170,8 @@ export const skillsData = [  ["JavaScript", "/svgs/javascript-js.svg"],
 
 export const languageData: Record<string, { color: string; icon: JSX.Element }> =
     {
-      React: { color: "#61DAFB", icon: React.createElement(SiReact) },
+      "React.js": { color: "#61DAFB", icon: React.createElement(SiReact) },
+        "React Native": { color: "#61DAFB", icon: React.createElement(SiReact) },
       TypeScript: { color: "#3178C6", icon: React.createElement(SiTypescript) },
       "Next.js": { color: "#000000", icon: React.createElement(SiNextdotjs) },
       Tailwind: { color: "#06B6D4", icon: React.createElement(SiTailwindcss) },
@@ -186,11 +194,11 @@ export const languageData: Record<string, { color: string; icon: JSX.Element }> 
       PostgreSQL: { color: "#4169E1", icon: React.createElement(SiPostgresql) },
       Firebase: { color: "#DD2C00", icon: React.createElement(SiFirebase) },
       Supabase: { color: "#3FCF8E", icon: React.createElement(SiSupabase) },
-      Python: { color: "#3776AB", icon: React.createElement(SiReact) },
+      Python: { color: "#3776AB", icon: React.createElement(SiPython) },
       Java: { color: "#007396", icon: React.createElement(SiReact) },
       "Spring Boot": { color: "#6DB33F", icon: React.createElement(SiSpring) },
       MaterialUI: { color: "#007FFF", icon: React.createElement(SiMui) },
-      "Android Studio": { color: "#3DDC84", icon: React.createElement(SiReact) },
+      "Android Studio": { color: "#3DDC84", icon: React.createElement(SiAndroidstudio) },
       Swift: { color: "#FA7343", icon: React.createElement(SiReact) },
       Kotlin: { color: "#7F52FF", icon: React.createElement(SiReact) },
       Flutter: { color: "#02569B", icon: React.createElement(SiReact) },
@@ -207,6 +215,7 @@ export const languageData: Record<string, { color: string; icon: JSX.Element }> 
         Sendgrid: { color: "#51A9E3", icon: React.createElement(SiSendgrid) },
         Angular: { color: "#D22128", icon: React.createElement(SiAngular) },
         "React Router": { color: "#CA4245", icon: React.createElement(SiReactrouter) },
-        "Web Storm": { color: "#000000", icon: React.createElement(SiWebstorm) },
+        Webstorm: { color: "#000000", icon: React.createElement(SiWebstorm) },
+        Vercel: { color: "#000000", icon: React.createElement(SiVercel) },
         AWS: { color: "#232F3E", icon: React.createElement(SiAmazonwebservices) },
     };

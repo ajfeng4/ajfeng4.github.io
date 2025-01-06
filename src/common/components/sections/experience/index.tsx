@@ -1,5 +1,4 @@
 "use client";
-
 import React, { useState } from "react";
 import {
   VerticalTimeline,
@@ -50,7 +49,7 @@ export default function Experience() {
               onClick={() => setSelectedSection("experience")}
               className={`px-4 py-2 rounded-md text-sm font-medium ${
                   selectedSection === "experience"
-                      ? "bg-blue-600 text-white"
+                      ? "bg-[#ED6E27] text-white"
                       : "bg-gray-200 dark:bg-gray-700 text-black dark:text-white"
               }`}
           >
@@ -60,7 +59,7 @@ export default function Experience() {
               onClick={() => setSelectedSection("education")}
               className={`px-4 py-2 rounded-md text-sm font-medium ${
                   selectedSection === "education"
-                      ? "bg-blue-600 text-white"
+                      ? "bg-[#ED6E27] text-white"
                       : "bg-gray-200 dark:bg-gray-700 text-black dark:text-white"
               }`}
           >
@@ -70,7 +69,7 @@ export default function Experience() {
               onClick={() => setSelectedSection("extracurriculars")}
               className={`px-4 py-2 rounded-md text-sm font-medium ${
                   selectedSection === "extracurriculars"
-                      ? "bg-blue-600 text-white"
+                      ? "bg-[#ED6E27] text-white"
                       : "bg-gray-200 dark:bg-gray-700 text-black dark:text-white"
               }`}
           >

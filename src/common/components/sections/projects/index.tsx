@@ -27,7 +27,7 @@ export default function Projects() {
               onClick={() => setSelectedCategory("All")}
               className={`px-4 py-2 rounded-md text-sm font-medium ${
                   selectedCategory === "All"
-                      ? "bg-blue-600 text-white"
+                      ? "bg-[#ED6E27] text-white"
                       : "bg-gray-200 dark:bg-gray-700 text-black dark:text-white"
               }`}
           >
@@ -37,7 +37,7 @@ export default function Projects() {
               onClick={() => setSelectedCategory("Web")}
               className={`px-4 py-2 rounded-md text-sm font-medium ${
                   selectedCategory === "Web"
-                      ? "bg-blue-600 text-white"
+                      ? "bg-[#ED6E27] text-white"
                       : "bg-gray-200 dark:bg-gray-700 text-black dark:text-white"
               }`}
           >
@@ -47,7 +47,7 @@ export default function Projects() {
               onClick={() => setSelectedCategory("Mobile")}
               className={`px-4 py-2 rounded-md text-sm font-medium ${
                   selectedCategory === "Mobile"
-                      ? "bg-blue-600 text-white"
+                      ? "bg-[#ED6E27] text-white"
                       : "bg-gray-200 dark:bg-gray-700 text-black dark:text-white"
               }`}
           >
